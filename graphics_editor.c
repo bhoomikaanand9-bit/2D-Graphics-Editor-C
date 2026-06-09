@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <math.h>
-#include <stdib.h>
+#include <stdlib.h>
 
 #define ROWS 25
 #define COLS 60
