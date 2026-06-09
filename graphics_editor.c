@@ -194,9 +194,36 @@ void drawLine(int x1, int y1, int x2, int y2)
 
 /* Draw Triangle */
 void drawTriangle(int x, int y, int height)
+{
+    for(int i = 0; i < height; i++)
+    {
+        for(int j = -i; j <= i; j++)
+        {
+            drawPoint(x + i, y + j, '*');
+        }
+    }
+}
 
 /* Draw Circle */
 void drawCircle(int xc, int yc, int r)
-
+{
+    for(int angle=0;angle<360;angle++)
+    {
+        float rad=angle*3.14159/180;
+        int x = xc + r*cos(rad);
+        int y = yc + r*sin(rad);
+        drawPoint(x, y, '*');
+    }
+}
 /* Delete Area */
 void deleteArea(int x1, int y1, int x2, int y2)
+{
+    for(int i=x1; i<=x2; i++)
+    {
+        for(int j=y1; j<=y2; j++)
+        {
+            drawPoint(i,j,'_');
+        }
+    }
+}
+    
