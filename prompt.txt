@@ -1,0 +1,113 @@
+PROMPT 1:
+Design the basic structure of a menu-driven 2D Graphics Editor in C using a 2D character array as the canvas.
+
+RESPONSE:
+A program structure was created consisting of a global canvas array, menu-driven interface, function declarations, and a main function to manage user interactions.
+
+PROMPT 2:
+Write a function to initialize a 2D character array with underscore (_) characters.
+
+RESPONSE:
+An initCanvas() function was created to fill every position of the canvas with '_' using nested loops.
+
+PROMPT 3:
+Write a function to display the contents of the canvas on the screen.
+
+RESPONSE:
+A displayCanvas() function was generated to print all rows and columns of the canvas on the screen.
+
+PROMPT 4:
+Create a drawPoint() function that places a character at a specified coordinate in the canvas.
+
+RESPONSE:
+A drawPoint() function was created to place a character at a valid canvas position after checking boundary conditions.
+
+PROMPT 5:
+Write a function to draw a filled rectangle using the drawPoint() function.
+
+RESPONSE:
+A drawRectangle() function was implemented using nested loops to draw a filled rectangle with '*' characters.
+
+PROMPT 6:
+Write a function to draw a line between two points in a 2D character array using the DDA line drawing algorithm.
+
+RESPONSE:
+A drawLine() function was generated using the DDA algorithm, calculating increments and plotting points from the start coordinate to the end coordinate.
+
+PROMPT 7:
+Explain the DDA line drawing algorithm and the purpose of dx, dy, steps, xInc, and yInc.
+
+RESPONSE:
+The DDA algorithm was explained. dx and dy represent coordinate differences, steps determine the number of iterations, and xInc and yInc represent the coordinate increments for each step.
+
+PROMPT 8:
+Can I replace xInc and yInc with more meaningful variable names such as xStep and yStep?
+
+RESPONSE:
+Alternative variable names such as xStep and yStep were suggested to improve readability while keeping the logic unchanged.
+
+PROMPT 9:
+Write a function to draw a triangle using asterisks (*) on the character canvas.
+
+RESPONSE:
+A drawTriangle() function was created using nested loops to generate a filled triangular pattern on the canvas.
+
+PROMPT 10:
+Write a function to draw a circle using trigonometric functions such as sin() and cos().
+
+RESPONSE:
+A drawCircle() function was implemented using angle-based calculations with sine and cosine functions to plot points around the circumference.
+
+PROMPT 11:
+Create a deleteArea() function to erase a selected region of the canvas by replacing characters with underscores (_).
+
+RESPONSE:
+A deleteArea() function was generated to clear a rectangular region of the canvas by replacing existing characters with '_'.
+
+PROMPT 12:
+How can I implement a modify feature for graphical objects in the editor?
+
+RESPONSE:
+A modifyRectangle() approach was suggested where the old object is deleted and then redrawn using updated dimensions and coordinates.
+
+PROMPT 13:
+Integrate all shape drawing functions into a menu-driven program using a switch-case statement.
+
+RESPONSE:
+All drawing, deletion, display, and canvas operations were combined into a menu-driven application using a switch-case structure.
+
+PROMPT 14:
+Provide the complete program with all function declarations (prototypes) placed before the main function.
+
+RESPONSE:
+The complete program was reorganized so that all function prototypes appeared before the main function and definitions followed afterward.
+
+PROMPT 15:
+Review the complete program and check for errors or improvements.
+
+RESPONSE:
+Suggestions were provided to include necessary header files, improve variable names, add comments, and implement the modify feature.
+
+PROMPT 16:
+Suggest meaningful comments for each function in the source code.
+
+RESPONSE:
+Comments were generated to explain the purpose of each function, including canvas initialization, shape drawing, deletion, and display operations.
+
+PROMPT 17:
+Give me a suitable project title for this graphics editor.
+
+RESPONSE:
+Several titles were suggested, including "Character-Based Graphics Editor in C", "2D Drawing and Manipulation System in C", and "Menu-Driven 2D Graphics Editor Using Character Arrays".
+
+PROMPT 18:
+Write a detailed project description for the README file.
+
+RESPONSE:
+A project description was generated explaining the objective, features, implementation, and concepts used in the graphics editor.
+
+PROMPT 19:
+How do I upload the project files to GitHub and maintain daily commits?
+
+RESPONSE:
+Step-by-step instructions were provided for creating a GitHub repository, uploading project files, committing changes, updating the README, and maintaining daily project activity.
